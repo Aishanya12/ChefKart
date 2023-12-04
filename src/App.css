@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=REM&family=Roboto:wght@400;700&display=swap");
+
+.App {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body {
+  font-family: "REM", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: flex;
+  font-weight: 400;
+  font-size: small;
+  width: 200px;
+  margin-left: 1px;
+}
+.black {
+  background-color: black;
+
+  margin-bottom: 100px;
+  width: 600px;
+}
+.dateContainer {
+  border-radius: 20px;
+  display: flex;
+  gap: 50px;
+  background-color: white;
+  width: 500px;
+  top: 50px;
+  left: 50px;
+  position: relative;
+  border-style: solid;
+  border-color: whitesmoke;
+}
+.date {
+  display: flex;
+  gap: 20px;
+  font-size: small;
+  padding: 30px;
+}
+.dishesContainer {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  gap: 60px;
+  width: 40px;
+  padding: 10px 20px 30px;
+}
+.dish {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:50px;
+}
+.el {
+  display: flex;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: max-content;
+  height: 20px;
+  align-items: center;
+  padding: 5px 30px;
+  border: solid;
+  border-color: orangered;
+  color: orangered;
+}
+.a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:10px;
+}
+.e {
+  display: flex;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: max-content;
+  height: 20px;
+  align-items: center;
+  padding: 5px 30px;
+}
+
+.popularContainer {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: whitesmoke;
+  height: 150px;
+}
+
+.Popular {
+  gap: 60px;
+  font-size: x-small;
+}
+.biryani {
+  display: flex;
+  gap: 20px;
+  padding: 0px 0px 20px;
+  width:600px;
+  overflow-x: auto;
+}
+.bir {
+  display: flex;
+  margin-right: 50px;
+  float: left;
+  gap: 30px;
+  flex-direction: row;
+  font-size: small;
+  font-weight: 100px;
+  background-image: url("https://yellowchilis.com/wp-content/uploads/2020/11/chicken-biryani-pressure-cooker-south-india-square-500x500.jpg");
+  width: 40px;
+  height: 40px;
+  padding: 10px 20px 30px;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-style: solid;
+  border-color: brown;
+}
+.recContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.Rec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: x-small;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 50px;
+  background-color: black;
+  color: white;
+  width: max-content;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border-color: wheat;
+}
+
+.leftt {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.newim {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.muglai {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  height: 120px;
+  font-size: smaller;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-style: solid;
+  border-color: whitesmoke;
+  font-size: xx-small;
+}
+.itemss {
+  gap: 30px;
+}
+.Items {
+  display: flex;
+  gap: 10px;
+}
+.items {
+  display: flex;
+  font-size: small;
+  color: orangered;
+}
+.recipe > p {
+  width: 200px;
+}
+
+.btt {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-between;
+}
+.recipe {
+  display: flex;
+  color: grey;
+  font-size: medium;
+}
+.bt {
+  height: 20px;
+  margin-right: 30px;
+  width: 30px;
+  color: orangered;
+  width: 80px;
+  height: 40px;
+  border-radius: 4px;
+  border-color: grey;
+}
+.works {
+  border-style: solid;
+  border-color: whitesmoke;
+}
+.wut {
+  background-color: grey;
+}
+.fo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.foo {
+  background-color: black;
+  margin-right: 40px;
+  margin-left: 60px;
+  margin-bottom: 120px;
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.foo1 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.ss {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  overflow-y: auto;
+  position: relative
+}
+
+
+.one {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+}
+.mas {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 20%;
+  font-size: medium;
+  color: grey;
+  gap: 10px;
+}
+.two {
+  font-size: small;
+  border: solid;
+  border-color: whitesmoke;
+ 
+  
+  justify-content: center;
+}
+.tw {
+  color: grey;
+}
+.three {
+  font-size: x-small;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.tt1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: grey;
+}
+.tt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: grey;
+}
+.four {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: x-small;
+}
+.f {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: grey;
+}
+.ff {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: grey;
+}
+.five {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+.fi {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  font-size: small;
+}
+.fii {
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+.bro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.v {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.v1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+.mu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.new {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mp {
+  align-items: center;
+  width: 500px;
+}
+.fri {
+  display: flex;
+  gap: 170px;
+}
+.frii {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  
+}
